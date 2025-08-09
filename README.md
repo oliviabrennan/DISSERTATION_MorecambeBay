@@ -5,9 +5,9 @@ This repository contains Jupyter Notebooks which extract shorelines from Sentine
 
 ## 📂 Contents
 
-- `notebooks/` — One to extract shorelines using NDWI and one to delineate salt marsh extent using NDVI
-- `data/` — Tide Guage data from the UK National Tide Gauge Network
-- `figures/` — Visualizations and maps from the project
+- `notebooks` — One to extract shorelines using NDWI and one to delineate salt marsh extent using NDVI
+- `data` — Tide Guage data from the UK National Tide Gauge Network
+- `figures` — Visualizations and maps from the project
 
 ## Running the Notebooks
 
