@@ -14,8 +14,8 @@ This repository contains Jupyter Notebooks which extract shorelines from Sentine
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/oliviabrennan/y.git
-cd your-repo-name
+git clone https://github.com/oliviabrennan/DISSERTATION_MorecambeBay.git
+cd DISSERTATION_MorecambeBay
 ```
 
 ### 2. Set Up a Virtual Environment 
@@ -24,18 +24,7 @@ cd your-repo-name
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 ```
-
-### 3. Install Dependencies
-
-Make sure you have `pip` installed, then run:
-
-```bash
-pip install -r requirements.txt
-```
-
-```
-
-### 5. Launch Jupyter
+### 3. Launch Jupyter
 
 ```bash
 jupyter lab
