@@ -5,9 +5,12 @@ This repository contains Jupyter Notebooks which extract shorelines from Sentine
 
 ## 📂 Contents
 
-- `notebooks` — One to extract shorelines using NDWI and one to delineate salt marsh extent using NDVI
-- `data` — Tide Guage data from the UK National Tide Gauge Network
-- `figures` — Visualizations and maps from the project
+- `Shoreline_Extraction_Morecambe_Bay` - Jupyter notebook which links Sentinel-2 scenes over Morecambe Bay to tide gauge data and filters based on tidal state to extract shoreline polygons using NDWI thresholding
+- `Salt_Marsh_delineation_Morecambe_Bay` - Jupyter notebook which clips a Sentinel-2 scene over Morecambe Bay based on a HAT shoreline & extracts saltmarsh polygons based on NDVI thresholding
+- `'HEY'files` - Contain formatted Tide Guage data from the UK National Tide Gauge Network for the years 2017-2025, at Heysham
+- `'formatted metadata' files` - Contain the formatted metadata from Sentienl-2 scenes over Morecambe Bay
+  
+
 
 ## Running the Notebooks
 
@@ -30,8 +33,7 @@ source env/bin/activate  # On Windows: env\Scripts\activate
 jupyter lab
 ```
 
-Then open the notebook of interest (e.g., `notebooks/intertidal_analysis.ipynb`).
-
+Then open the notebook of interest
 ---
 
 
